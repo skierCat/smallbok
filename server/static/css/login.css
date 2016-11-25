@@ -1,0 +1,120 @@
+.login-body {
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    width: 90%;
+    height:90%;
+    position:absolute;
+    z-index:5;
+    left: 5%;
+    margin-left: 0px;/*此值等于“-width/2”*/ 
+    top:5%;
+    margin-top:0px;
+    border:1px solid #ff6a00;
+    background-color:white;
+    filter: alpha(opacity=95);
+    opacity:0.7;
+}
+.pure-control-group {
+    text-align:center;
+    margin-top:0px;
+}
+.t-themef {
+    font-size:80px;
+    color:#ff6a00;
+    font-weight:800;
+    text-align:center;
+}
+.t-themet {
+    font-size:20px;
+    letter-spacing:10px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.pure-form{
+    position:absolute;
+    z-index:5;
+    margin-left:65px;
+
+
+}
+#imstyle{
+    width:500px;
+    height:auto;
+}
+#mypad_1{
+    position:absolute;
+    z-index:5;
+    margin-top:30px;
+    
+}
+
+#mypad_2{ 
+    position:absolute;
+    z-index:6;
+    margin-top:30px;
+    margin-left:500px;
+     
+}
+
+#user_name {
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    height:45px;
+    width:257px;
+    font-size:18px;
+    border-left:1px ridge #ccc;
+    border-right:1px ridge #ccc;
+    border-top:1px ridge #ccc;
+    border-bottom-width:0px;
+}
+#user_pass {
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    font-size:18px;
+    height:45px;
+    width:257px;
+    border-top:1px ridge #ccc;
+    border-left:1px ridge #ccc;
+    border-right:1px ridge #ccc;
+    border-bottom:1px ridge #ccc;
+}
+.pure-submit {
+    text-align:center;
+    margin-top:20px;
+}
+.pure-button {
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    width:257px;
+    height:39px;
+    background-color:#0099df;
+    font-size:18px;
+    color:white;
+}
+body {
+	background-color: #075cb1;
+	margin: 0px;
+	overflow: hidden;
+}
+.LoR {
+	height:500px;
+	width:500px;
+	overflow:hidden;
+	position:absolute;
+	top:40%;
+	left:50%;
+	margin-left: -250px;/*此值等于“-width/2”*/ 
+        margin-top:-200px;
+	z-index:2;
+}
